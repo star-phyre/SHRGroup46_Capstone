@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media all and (max-width:800px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
